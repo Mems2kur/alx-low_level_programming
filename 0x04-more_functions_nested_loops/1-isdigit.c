@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ *_isdigit - print upper case letters
+ *
+ *@c: ASCII CODE
+ * Return: Always 0 (Success)
+ */
+int _isdigit(int c)
+{
+if (c >= 48 && c <= 57)
+{
+return (1);
+}
+else
+{
+return (0);
+}
+}
